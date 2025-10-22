@@ -1,9 +1,9 @@
 import { Text, View } from "react-native";
 
-export default function HomeScreen() {
+export default function Cart() {
   return (
     <View className="flex-1 justify-center items-center">
-      <Text>Home Screen</Text>
+      <Text>Cart Screen</Text>
     </View>
   );
 }

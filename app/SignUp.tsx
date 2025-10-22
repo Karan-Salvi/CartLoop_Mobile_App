@@ -23,6 +23,7 @@ const SignUp = () => {
         className="bg-white"
       >
         <SafeAreaView className="relative flex-1 items-center justify-center gap-20">
+          {/* LAYERS FOR DESIGN */}
           <Image
             source={require("../assets/images/bg1.png")}
             className="w-50 absolute left-0 top-0 h-60 -translate-x-1/3 -translate-y-1/3 "
@@ -40,10 +41,12 @@ const SignUp = () => {
             source={require("../assets/images/bg2.png")}
             className="h-70 w-50 absolute bottom-0 right-0 translate-x-1/3 translate-y-1/2  rotate-180 "
           />
+
+          {/* FORM LAYOUT */}
           <View className="flex flex-col items-center gap-4 w-full">
             <Image
-              source={require("../assets/images/brand.png")}
-              className="h-10 w-48 "
+              source={require("../assets/images/cartloop.png")}
+              className="h-36 w-36 rounded-full"
             />
             <Text className="text-3xl font-extrabold text-orange-400 ">
               Get started with CartLoop

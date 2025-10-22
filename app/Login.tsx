@@ -41,8 +41,8 @@ const Login = () => {
           />
           <View className="flex flex-col items-center gap-4 w-full">
             <Image
-              source={require("../assets/images/brand.png")}
-              className="h-10 w-48 "
+              source={require("../assets/images/cartloop.png")}
+              className="h-36 w-36 rounded-full"
             />
             <Text className="text-3xl font-extrabold text-orange-400 ">
               Welcome Back to CartLoop
