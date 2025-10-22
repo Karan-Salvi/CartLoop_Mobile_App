@@ -17,7 +17,7 @@ export default function HomeScreen() {
           className="flex-1"
           showsVerticalScrollIndicator={false}
           contentContainerStyle={{
-            paddingBottom: 100, // ✅ prevents content from being hidden at bottom
+            paddingBottom: 100,
           }}
         >
           <Header />

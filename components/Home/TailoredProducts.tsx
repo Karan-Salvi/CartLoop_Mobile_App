@@ -26,11 +26,8 @@ const TailoredProducts = () => {
 
       <View className="flex-row flex-wrap justify-between gap-2">
         {TailoredItems.map((img, index) => (
-          <View className="w-[48%]">
-            <View
-              key={index}
-              className="relative bg-white overflow-hidden w-full h-72 rounded-2xl mb-1 p-2 shadow-black shadow-lg"
-            >
+          <View key={index} className="w-[48%]">
+            <View className="relative bg-white overflow-hidden w-full h-72 rounded-2xl mb-1 p-2 shadow-black shadow-lg">
               <Image source={img} className="w-full h-full rounded-xl" />
             </View>
             <View className="flex-1 justify-start items-start pl-3 gap-1">
