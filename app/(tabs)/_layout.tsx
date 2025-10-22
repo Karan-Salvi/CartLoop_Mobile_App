@@ -59,7 +59,7 @@ export default function TabLayout() {
           height: 70,
           overflow: "hidden",
           borderWidth: 1,
-          borderColor: "orange",
+          borderColor: "transparent",
         },
       }}
     >
